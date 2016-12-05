@@ -19,11 +19,10 @@ android_sdk=android-sdk
 
 # attempt android sdk installation if not present
 [[ -d $install_prefix/$android_sdk ]] || {
-        curl --silent -L $android_sdk_url -o $android_sdk.tgz
-        tar xf $android_sdk.tgz
-        mv $android_sdk $install_prefix
-        rm $android_sdk.tgz
-    }
+    curl --silent -L $android_sdk_url -o $android_sdk.tgz
+    tar xf $android_sdk.tgz
+    mv $android_sdk $install_prefix
+    rm $android_sdk.tgz
 }
 
 # attempt build tools installation
