@@ -31,10 +31,12 @@ echo y | $install_prefix/$android_sdk/android update sdk --no-ui --all --filter 
 
 ### Importing
 
-1. Clone a local copy
-2. Change the name of the `your_lib_name_here` folder and its counterpart in `settings.gradle`
-3. Update `AndroidManifest.xml` and the package directory structure to reflect your package-identifier
-4. Import this directory into AndroidStudio as a Gradle-based project
+1. Get a copy `git clone https://github.com/io-digital/react-native-android-plugin-template your_lib_name_here`
+2. Start fresh `cd your_lib_name_here && rm -rf .git/ && git init`
+3. Add a remote `git remote add origin git+ssh://your/remote/url/here`
+4. Change the name of `your_lib_name_here/` and its counterpart in `settings.gradle`
+5. Update `AndroidManifest.xml` and the package directory structure to reflect your package-identifier
+6. Import this directory into AndroidStudio as a Gradle-based project
 
 ## Publishing
 
