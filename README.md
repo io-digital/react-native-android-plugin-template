@@ -32,9 +32,10 @@ echo y | $install_prefix/$android_sdk/android update sdk --no-ui --all --filter 
 
 ### Importing
 
-1. Change the name of the `your_lib_name_here` folder and its counterpart in `settings.gradle`
-2. Update `AndroidManifest.xml` and the package directory structure to reflect your package-identifier
-3. Import this directory into AndroidStudio as a Gradle-based project
+1. Clone a local copy
+2. Change the name of the `your_lib_name_here` folder and its counterpart in `settings.gradle`
+3. Update `AndroidManifest.xml` and the package directory structure to reflect your package-identifier
+4. Import this directory into AndroidStudio as a Gradle-based project
 
 ## Publishing
 
