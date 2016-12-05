@@ -14,19 +14,20 @@ If Android SDK or build-tools-23.0.1 is not installed, run the following with el
 android_sdk_url=https://dl.google.com/android/android-sdk_r24.4.1-linux.tgz
 
 # android sdk install path
-my_android_sdk_path=/usr/local/android-sdk
+install_prefix=/usr/local
+android_sdk=android-sdk
 
 # attempt android sdk installation if not present
-[[ -d $my_android_sdk_path ]] || {
-        curl --silent -L $android_sdk_url -o android-sdk.tgz
-        tar xf android-sdk.tgz
-        mv android-sdk /usr/local
-        rm android-sdk.tgz
+[[ -d $install_prefix/$android_sdk ]] || {
+        curl --silent -L $android_sdk_url -o $android_sdk.tgz
+        tar xf $android_sdk.tgz
+        mv $android_sdk $install_prefix
+        rm $android_sdk.tgz
     }
 }
 
 # attempt build tools installation
-echo y | /usr/local/android-sdk/android update sdk --no-ui --all --filter build-tools-23.0.1
+echo y | $install_prefix/$android_sdk/android update sdk --no-ui --all --filter build-tools-23.0.1
 ```
 
 ### Importing
