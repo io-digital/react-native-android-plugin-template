@@ -32,8 +32,8 @@ echo y | /usr/local/android-sdk/android update sdk --no-ui --all --filter build-
 ### Importing
 
 1. Change the name of the `your_lib_name_here` folder and its counterpart in `settings.gradle`
-2. Import this directory into AndroidStudio as a Gradle-based project
-3. Update `AndroidManifest.xml` and the package directory structure to reflect your package-identifier 
+2. Update `AndroidManifest.xml` and the package directory structure to reflect your package-identifier
+3. Import this directory into AndroidStudio as a Gradle-based project
 
 ## Publishing
 
