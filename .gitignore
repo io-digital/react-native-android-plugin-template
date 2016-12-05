@@ -1,6 +1,11 @@
 
 ### Gradle ###
-.gradle
+
+gradle/
+
+gradlew.*
+gradlew
+
 /build/
 gradle-app.setting
 !gradle-wrapper.jar
