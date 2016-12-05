@@ -9,6 +9,7 @@ Import this directory into AndroidStudio as a Gradle-based project. Once importe
 
 ## Publishing
 
+* Update this readme
 * Add a license
 * Update `package.json`
 * Set release configuration parameters in `your_lib_name_here/build.gradle`
