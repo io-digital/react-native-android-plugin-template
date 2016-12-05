@@ -1,0 +1,10 @@
+{
+  "name": "your_lib_name_here",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "react": "15.4.1",
+    "react-native": "0.39.0"
+  }
+}
