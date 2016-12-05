@@ -10,7 +10,7 @@
 If Android SDK or build-tools-23.0.1 is not installed, run the following with elevated privileges:
 
 ```bash
-# find url to newer version!
+# update this variable with the latest url from https://developer.android.com/studio/index.html#downloads
 android_sdk_url=https://dl.google.com/android/android-sdk_r24.4.1-linux.tgz
 
 # android sdk install path
