@@ -1,9 +1,10 @@
 package your.pkg.id;
 
-import java.util.HashMap;
-
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public final class YourLibNameHereModule extends ReactContextBaseJavaModule {
 
