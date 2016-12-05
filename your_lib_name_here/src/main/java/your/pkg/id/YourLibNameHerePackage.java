@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public final class YourLibNameHerePackage implements ReactPackage {
+public class YourLibNameHerePackage implements ReactPackage {
   
   @Override
   public List<Class<? extends JavaScriptModule>> createJSModules() {

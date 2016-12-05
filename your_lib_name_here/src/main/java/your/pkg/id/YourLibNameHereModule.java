@@ -6,9 +6,9 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import java.util.HashMap;
 import java.util.Map;
 
-public final class YourLibNameHereModule extends ReactContextBaseJavaModule {
+public class YourLibNameHereModule extends ReactContextBaseJavaModule {
 
-  public YourLibNameHereModule(final ReactApplicationContext rctx) {
+  public YourLibNameHereModule(ReactApplicationContext rctx) {
     super(rctx);
   }
 
